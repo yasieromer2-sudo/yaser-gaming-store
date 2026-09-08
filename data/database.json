@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "uid": "UID-000001",
+      "name": "المدير العام (Super Admin)",
+      "email": "admin@gamingstore.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "super_admin",
+      "status": "active",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "wallets": {
+    "usr-admin": {
+      "id": "wlt-admin",
+      "userId": "usr-admin",
+      "balance": 0,
+      "currency": "SDG",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  "transactions": [],
+  "agents": [],
+  "paymentMethods": [
+    {
+      "id": "bankak",
+      "name": "تطبيق بنكك (بنك الخرطوم)",
+      "code": "BOK",
+      "iconName": "Building2",
+      "color": "#0284c7",
+      "description": "التحويل المباشر عبر حساب أو رقم هاتف بنكك مع إشعار الدفع الفوري",
+      "isActive": true
+    },
+    {
+      "id": "mycash",
+      "name": "مايكاش (MyCash)",
+      "code": "MYC",
+      "iconName": "Smartphone",
+      "color": "#f59e0b",
+      "description": "تحويل سريع عبر محفظة مايكاش الإلكترونية للوكيل",
+      "isActive": true
+    },
+    {
+      "id": "okash",
+      "name": "أوكاش (O-Kash)",
+      "code": "OKS",
+      "iconName": "CreditCard",
+      "color": "#8b5cf6",
+      "description": "خدمة الدفع والتحويل عبر أوكاش بسهولة وأمان",
+      "isActive": true
+    }
+  ],
+  "topUpRequests": [],
+  "games": [],
+  "rechargePackages": [],
+  "rechargeOrders": [],
+  "gameAccounts": [],
+  "orders": [],
+  "notifications": [],
+  "storeSections": [
+    {
+      "id": "sec-1",
+      "key": "recharge",
+      "title": "الشحن السريع",
+      "icon": "Zap",
+      "order": 1,
+      "isVisible": true,
+      "isDefault": true
+    },
+    {
+      "id": "sec-2",
+      "key": "accounts",
+      "title": "عروض الحسابات",
+      "icon": "Gamepad2",
+      "order": 2,
+      "isVisible": true,
+      "isDefault": true
+    },
+    {
+      "id": "sec-3",
+      "key": "wallet",
+      "title": "المحفظة",
+      "icon": "Wallet",
+      "order": 3,
+      "isVisible": true,
+      "isDefault": true
+    },
+    {
+      "id": "sec-4",
+      "key": "profile",
+      "title": "الملف الشخصي",
+      "icon": "User",
+      "order": 4,
+      "isVisible": true,
+      "isDefault": true
+    }
+  ],
+  "storeBanners": [],
+  "storeSettings": {
+    "storeName": "متجر الألعاب الرقمي",
+    "storeTagline": "المنصة المتكاملة لشحن الألعاب وشراء الحسابات المعتمدة",
+    "storeDescription": "متجر ألعاب رقمي احترافي بنظام المحفظة الإلكترونية وشبكة وكلاء شحن معتمدة.",
+    "logoUrl": "",
+    "faviconUrl": "",
+    "primaryColor": "#10b981",
+    "accentColor": "#6366f1",
+    "fontFamily": "Cairo",
+    "themeMode": "dark",
+    "usdToSdgRate": 2650,
+    "baseCurrency": "SDG",
+    "whatsappSupportNumber": "",
+    "contactEmail": "",
+    "termsOfService": "شروط استخدام المتجر: جميع المعاملات نهائية بمجرد اكتمال الشحن أو تسليم الحساب. يتم شحن المحفظة بعد مراجعة الوكيل لإشعار التحويل البنكي الفعلي.",
+    "privacyPolicy": "سياسة الخصوصية: نحمي بيانات المستخدمين ومعرفاتهم، ولا نشارك أي معلومات شخصية إلا للأغراض التشغيلية اللازمة لإتمام العمليات.",
+    "announcementText": "",
+    "showAnnouncement": false,
+    "maintenanceMode": false
+  },
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "userId": "usr-admin",
+      "userName": "المدير العام",
+      "action": "STORE_INITIALIZED",
+      "target": "Store System",
+      "details": "تم تجهيز متجر الألعاب بنسخة Standard White-Label نظيفة وجاهزة للتشغيل.",
+      "timestamp": "2026-01-01T00:00:00.000Z"
+    }
+  ]
+}

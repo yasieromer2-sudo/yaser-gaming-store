@@ -1,0 +1,21 @@
+{
+  "name": "Standard Gaming - متجر الألعاب الرقمي",
+  "short_name": "متجر الألعاب",
+  "description": "منصة شحن فوري للألعاب وحسابات الألعاب المعتمدة مع محفظة إلكترونية وشبكة وكلاء",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0e14",
+  "theme_color": "#0b0e14",
+  "lang": "ar",
+  "dir": "rtl",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "shopping", "entertainment"]
+}

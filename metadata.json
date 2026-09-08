@@ -1,0 +1,6 @@
+{
+  "name": "Standard Gaming - متجر ألعاب رقمي White-Label",
+  "description": "منصة متجر ألعاب رقمية متكاملة وقابلة للتخصيص وإعادة البيع بنظام White-Label مع محفظة إلكترونية، وكلاء شحن، عروض حسابات، ولوحة إدارة شاملة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
